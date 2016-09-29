@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'registros/compra'
+
+  get 'registros/estoque'
+
   resources :produtos
 
   resources :clientes

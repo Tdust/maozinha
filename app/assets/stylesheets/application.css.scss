@@ -18,5 +18,16 @@ body
 	/*background-image: url('fundo_maos.jpg');
     *background-attachment: fixed;
     *background-position: center;*/
-    background: #00cccc url('fundo_maos.jpg') no-repeat fixed center;
+    background: #cccccc url('fundo_maos2.jpg') no-repeat fixed center;
+}
+th
+{
+	border: 5px solid #F3F781;
+	background: #58FA58
+}
+td
+{
+	border: 2px solid #58FA58;
+	background: #F3F781;
+	padding: 5px;
 }
