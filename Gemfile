@@ -1,4 +1,12 @@
 source 'https://rubygems.org'
+#inseridos para oprojeto
+#pra colocar fotinhas
+gem 'carrierwave'
+gem 'bootstrap-sass'
+gem 'bootstrap-datepicker-rails'
+gem 'jquery-inputmask-rails'
+gem 'carrierwave'
+gem 'will_paginate', '~> 3.0.7'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

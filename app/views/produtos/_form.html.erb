@@ -23,7 +23,16 @@
     <%= f.label :preco %><br>
     <%= f.text_field :preco %>
   </div>
+  <div>
+    <%= f.label :foto %>
+    <%= image_tag @produto.foto_url, class: 'foto' if @produto.foto? %>
+    <br/>
+    <%= f.file_field :foto, label: 'Foto' , input_html: {accept: ('application/jpg') } %>
+    <br/>
+  </div>
   <div class="actions">
     <%= f.submit %>
   </div>
+
+
 <% end %>

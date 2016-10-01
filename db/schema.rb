@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160929195423) do
+ActiveRecord::Schema.define(version: 20161001154707) do
 
   create_table "clientes", force: :cascade do |t|
     t.string   "nome"
@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 20160929195423) do
     t.float    "preco"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string   "foto"
   end
 
 end
